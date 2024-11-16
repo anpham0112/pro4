@@ -14,6 +14,7 @@ st.write("Mưa trên những mái tôn")
 ##Lấy audio theo đường dẫn và đưa audio lên trang web
 audio = open("python4/python4_8.mp3","rb")
 st.audio(audio,format ='audio/mp3')
+# tạo tiêu đề và tên mv
 st.title ("MV yêu thích")
 st.write("Đưa nhau đi trốn")
 ##lấy video theo đường dẫn, đưa video lên trang web
